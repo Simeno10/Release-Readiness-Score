@@ -1,0 +1,9 @@
+name: Network Offline
+description: Simulate device without connectivity
+
+steps:
+  - disable_wifi
+  - disable_cellular
+
+expected:
+  - diagnostic_detects_no_network
