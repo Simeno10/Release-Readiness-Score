@@ -13,7 +13,6 @@ WEIGHTS = {
     "build_stability": 15,
 }
 
-
 def calculate_score(data):
     score = 0
 
